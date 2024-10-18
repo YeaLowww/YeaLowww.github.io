@@ -1,50 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
 
-#RPG_title {
-    color: rgba(255, 255, 255, 255);
-    font-family: cursive;
+#Level_title {
+    color: #808080;
+    /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
+    font-family: 'Major Mono Display', monospace;
     font-size: 5.8rem;
     letter-spacing: +0.7rem;
     text-align: center;
     padding-bottom: 25px;
-} 
+}
 
 
-#manual_link_RPG
+#github_link_Level 
 {
     align-self: center;
     text-align: center;
     font-size: 50px;
 }
 
-#RPG_quote
-{
+#Level_quote {
     font-family: 'VT323', 'monospace';
-    color: rgba(255, 255, 255, 255);
-    border-color: rgba(255, 255, 255, 0.2);
+    color: #808080;
+    border-color: #808080;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-#RPG_tldr
-{
+#Level_tldr {
     text-align: center;
 }
 
-#RPG_body
-{
+#Level_body {
     text-align: center;
     font-family: 'cascadia', 'monospace';
 }
 
-#RPG_youtube
-{
-    text-align: center;
-}
 
-.RPG_text
-{
-    color: rgba(255, 255, 255, 255);
-    font-size: 1.8rem; 
+.Level_text {
+    color: #808080;
+    font-size: 1.8rem;
     letter-spacing: -.05rem;
 } 
+

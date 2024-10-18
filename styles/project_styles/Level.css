@@ -43,5 +43,37 @@
     color: rgba(255, 255, 255, 255);
     font-size: 1.8rem;
     letter-spacing: -.05rem;
-} 
+}
+
+/* Newleveld */
+#project_images_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Відступи між рядами картинок */
+}
+
+.project_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 стовпці для інших проєктів */
+    gap: 15px; /* Відступи між картинками */
+}
+
+.project_row_2_images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 стовпці для першого проєкту */
+    gap: 15px; /* Відступи між картинками */
+}
+
+.project_image {
+    width: 100%; /* Забезпечує, щоб контейнер займав всю ширину */
+}
+
+    .project_image img {
+        width: 100%; /* Заповнює контейнер */
+        height: 400px; /* Зберігає пропорції */
+        max-height: 400px; /* Встановіть максимальну висоту за потреби */
+        object-fit: cover; /* Заповнює контейнер без спотворення пропорцій */
+        border-radius: 8px; /* Закруглені кути для зображень */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для краси */
+    }
 

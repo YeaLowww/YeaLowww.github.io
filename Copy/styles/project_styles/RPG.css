@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
 
 #RPG_title {
-    color: rgba(255, 255, 255, 255);
+    color: #808080;
     font-family: cursive;
     font-size: 5.8rem;
     letter-spacing: +0.7rem;
@@ -17,10 +17,9 @@
     font-size: 50px;
 }
 
-#RPG_quote
-{
+#RPG_quote {
     font-family: 'VT323', 'monospace';
-    color: rgba(255, 255, 255, 255);
+    color: #808080;
     border-color: rgba(255, 255, 255, 0.2);
     text-align: center;
     font-size: 25px;
@@ -42,9 +41,9 @@
     text-align: center;
 }
 
-.RPG_text
-{
-    color: rgba(255, 255, 255, 255);
-    font-size: 1.8rem; 
+.RPG_text {
+    color: #808080;
+    font-size: 1.8rem;
     letter-spacing: -.05rem;
 } 
+

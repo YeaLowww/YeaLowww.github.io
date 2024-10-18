@@ -2,10 +2,7 @@
 
 body {
     background-color: #1d2e1f;
-    background-image: repeating-linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2),#1c2619  102% ); 
-
     height: 100vh;
-
     display: block;
     margin: 0px;
     font-family: 'Source Code Pro', monospace;
@@ -31,7 +28,8 @@ div#crtEffect {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: repeating-linear-gradient(0deg, rgba(1, 1, 1, 0.02), rgba(1, 1, 1, 0.25), rgba(1, 1, 1, 0.02) 1%);
+    background-image: repeating-linear-gradient(0deg, rgba(143, 188, 143, 0.02), rgba(143, 188, 143, 0.25), rgba(143, 188, 143, 0.02) 1%);
+
     pointer-events: none;
     z-index: 10;
 }
