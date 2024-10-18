@@ -2,7 +2,6 @@
   "ExpandedNodes": [
     "",
     "\\Copy",
-    "\\Copy\\styles\\project_styles",
     "\\Data",
     "\\Data\\pages",
     "\\Data\\pages\\projects",
@@ -12,6 +11,6 @@
     "\\styles\\fonts",
     "\\styles\\project_styles"
   ],
-  "SelectedNode": "\\Data\\pages\\career.html",
+  "SelectedNode": "\\Copy\\index.html",
   "PreviewInSolutionExplorer": false
 }
