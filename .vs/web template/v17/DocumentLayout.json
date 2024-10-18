@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\",
+  "WorkspaceRootPath": "D:\\web template\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\Level.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\web template\\Data\\pages\\projects\\Level.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\Level.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\parallel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\parallel.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\web template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\RPG.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\RPG.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\web template\\Data\\Skills\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Skills\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\SmartEnemyAI.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\pages\\projects\\SmartEnemyAI.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\web template\\Copy\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Copy\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\index.html",
+              "DocumentMoniker": "D:\\web template\\index.html",
               "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\index.html",
+              "ToolTip": "D:\\web template\\index.html",
               "RelativeToolTip": "index.html",
               "ViewState": "AQIAAD0AAAAAAAAAAAAgwEwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-16T18:54:26.985Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SmartEnemyAI.html",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\SmartEnemyAI.html",
-              "RelativeDocumentMoniker": "Data\\pages\\projects\\SmartEnemyAI.html",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\SmartEnemyAI.html",
-              "RelativeToolTip": "Data\\pages\\projects\\SmartEnemyAI.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-18T21:01:11.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RPG.html",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\RPG.html",
-              "RelativeDocumentMoniker": "Data\\pages\\projects\\RPG.html",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\RPG.html",
-              "RelativeToolTip": "Data\\pages\\projects\\RPG.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-18T21:01:02.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "parallel.html",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\parallel.html",
-              "RelativeDocumentMoniker": "Data\\pages\\projects\\parallel.html",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\parallel.html",
-              "RelativeToolTip": "Data\\pages\\projects\\parallel.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-18T21:00:53.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Level.html",
-              "DocumentMoniker": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\Level.html",
+              "DocumentMoniker": "D:\\web template\\Data\\pages\\projects\\Level.html",
               "RelativeDocumentMoniker": "Data\\pages\\projects\\Level.html",
-              "ToolTip": "C:\\Users\\\u0421\u0430\u0448\u0430 \u0413\u043E\u043B\u043E\u0432\u043D\u044F\\Desktop\\web template\\Data\\pages\\projects\\Level.html",
+              "ToolTip": "D:\\web template\\Data\\pages\\projects\\Level.html",
               "RelativeToolTip": "Data\\pages\\projects\\Level.html",
               "ViewState": "AQIAADAAAAAAAAAAAAAAAAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-10-18T20:03:35.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\web template\\Data\\Skills\\index.html",
+              "RelativeDocumentMoniker": "Data\\Skills\\index.html",
+              "ToolTip": "D:\\web template\\Data\\Skills\\index.html",
+              "RelativeToolTip": "Data\\Skills\\index.html",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-18T21:20:50.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\web template\\Copy\\index.html",
+              "RelativeDocumentMoniker": "Copy\\index.html",
+              "ToolTip": "D:\\web template\\Copy\\index.html",
+              "RelativeToolTip": "Copy\\index.html",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-18T21:20:13.726Z",
               "EditorCaption": ""
             }
           ]
