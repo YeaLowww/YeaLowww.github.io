@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
-
 #Level_title {
-    color: rgba(255, 255, 255, 255);
+    color: var(--project-text, rgba(255, 255, 255, 255));
     /* -webkit-text-stroke: 2px rgb(255, 255, 255); */
     font-family: 'Major Mono Display', monospace;
     font-size: 5.8rem;
@@ -10,70 +9,53 @@
     padding-bottom: 25px;
 }
 
-
-#github_link_Level 
-{
-    align-self: center;
-    text-align: center;
-    font-size: 50px;
-}
-
 #Level_quote {
     font-family: 'VT323', 'monospace';
-    color: rgba(255, 255, 255, 255);
-    border-color: rgba(255, 255, 255, 0.2);
+    color: var(--project-text, rgba(255, 255, 255, 255));
+    border-color: var(--project-border, rgba(255, 255, 255, 0.2));
     text-align: center;
     font-size: 20px;
 }
 
-#Level_tldr {
-    text-align: center;
-}
-
-#Level_body {
-    text-align: center;
-    font-family: 'cascadia', 'monospace';
-}
-
-#Level_youtube {
-    text-align: center;
-}
-
-.Level_text {
-    color: rgba(255, 255, 255, 255);
-    font-size: 1.8rem;
+.Level_text
+{
+    color: var(--project-text, rgba(255, 255, 255, 255));
+    font-size: 1.8rem; 
     letter-spacing: -.05rem;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* Newleveld */
 #project_images_container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Відступи між рядами картинок */
+    gap: 20px; /* ВіпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
 .project_row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 стовпці для інших проєктів */
-    gap: 15px; /* Відступи між картинками */
+    grid-template-columns: repeat(4, 1fr); /* 4 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    gap: 15px; /* ВіпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
 .project_row_2_images {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 стовпці для першого проєкту */
-    gap: 15px; /* Відступи між картинками */
+    grid-template-columns: repeat(2, 1fr); /* 2 пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
+    gap: 15px; /* ВіпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
 .project_image {
-    width: 100%; /* Забезпечує, щоб контейнер займав всю ширину */
+    width: 100%; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 }
 
     .project_image img {
-        width: 100%; /* Заповнює контейнер */
-        height: 400px; /* Зберігає пропорції */
-        max-height: 400px; /* Встановіть максимальну висоту за потреби */
-        object-fit: cover; /* Заповнює контейнер без спотворення пропорцій */
-        border-radius: 8px; /* Закруглені кути для зображень */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для краси */
+        width: 100%; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+        height: 400px; /* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+        max-height: 400px; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+        object-fit: cover; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+        border-radius: 8px; /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ТіпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ */
     }
 

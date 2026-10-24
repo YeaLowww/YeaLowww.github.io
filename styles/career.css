@@ -27,6 +27,7 @@
   flex-direction: column;
   -webkit-box-pack: center;
   justify-content: center;
+  gap: 1rem;
   text-align: center;
 }
   
@@ -45,23 +46,28 @@
 .btn-career-5 
 {
   /* generic button */
-  color: #fff;
+  color: var(--btn-text);
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 400;
+  font-family: "cascadia", "monospace";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   line-height: 45px;
   /* margin: 0 0 2em; */
-  max-width: 160px;
+  max-width: 220px;
+  padding: 0 24px;
+  box-sizing: border-box;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
+  background-color: var(--btn-bg, transparent);
+  border: 1px solid var(--btn-border, rgba(255, 255, 255, 0.5));
 
   /* btn 5 */
-  border: 0px solid;
-  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  box-shadow: var(--btn-shadow, inset 0 0 20px rgba(255, 255, 255, 0));
   outline: 1px solid;
-  outline-color: rgba(255, 255, 255, 0.5);
+  outline-color: var(--btn-border, rgba(255, 255, 255, 0.5));
   outline-offset: 0px;
   text-shadow: none;
   -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -71,6 +77,7 @@
   position: relative;
   display: inline-block;
   margin-left: 0.1rem;
+  border-radius: 999px;
   overflow: hidden;
   vertical-align: middle;
 }
@@ -88,23 +95,27 @@
 .btn-career-5-active 
 {
   /* generic button */
-  color: #fff;
+  color: var(--btn-text);
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 400;
+  font-family: "cascadia", "monospace";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   line-height: 45px;
   /* margin: 0 0 2em; */
-  max-width: 160px;
+  max-width: 220px;
+  padding: 0 24px;
+  box-sizing: border-box;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
+  background-color: var(--btn-bg, transparent);
+  border: 1px solid var(--btn-border, rgba(255, 251, 0, 0.5));
 
   /* btn 5 */
-  border: 0px solid;
-  box-shadow: inset 0 0 20px rgba(255, 238, 0, 0);
-  outline: 1px solid;
-  outline-color: rgba(255, 251, 0, 0.5);
+  box-shadow: var(--btn-shadow, inset 0 0 20px rgba(255, 238, 0, 0));
+  outline: 1px solid var(--btn-border, rgba(255, 251, 0, 0.5));
   outline-offset: 0px;
   text-shadow: none;
   -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
@@ -114,6 +125,7 @@
   position: relative;
   display: inline-block;
   margin-left: 0.1rem;
+  border-radius: 999px;
   overflow: hidden;
   vertical-align: middle;
 }
@@ -142,14 +154,14 @@
 /* Education */
 .edu 
 {
-  color: rgba(255, 255, 255, 255);
+  color: var(--edu-text, rgba(255, 255, 255, 255));
   display: block;
   text-align: center;
   font-family: 'cascadia', 'monospace';
 }
 
 .edu-title {
-    color: rgba(255, 255, 255, 255);
+    color: var(--edu-text, rgba(255, 255, 255, 255));
     font-family: "Gill Sans", sans-serif;
     font-size: 2.8rem;
     letter-spacing: +0.7rem;
@@ -159,7 +171,7 @@
 
 .edu-title-medium
 {
-    color: rgba(255, 255, 255, 255);
+    color: var(--edu-text, rgba(255, 255, 255, 255));
     font-family: 'cascadia', monospace;
     font-size: 2.2rem; 
     letter-spacing: +0.7rem;
@@ -173,4 +185,5 @@
   font-size: 2.2rem; 
   padding-top: 10px;
   padding-bottom: 0px;
+  color: var(--edu-text, rgba(255, 255, 255, 255));
 }
