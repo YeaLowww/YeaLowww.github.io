@@ -10,6 +10,16 @@
     padding-bottom: 25px;
 }
 
+#Dots_and_Boxes_tldr
+{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+}
+
 #Dots_and_Boxes_quote
 {
     font-family: 'VT323', 'monospace';

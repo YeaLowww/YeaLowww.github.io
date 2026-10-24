@@ -24,7 +24,7 @@ body
 
 #title
 {
-    color: rgba(255, 255, 255, 255);
+    color: var(--title-color);
     font-family: 'VT323', 'monospace'; /* font family */
     font-size: 60pt; /* size of the font */
     margin: -25px auto; /* vertical margin from top, horizontal centering (using auto) */
@@ -33,6 +33,18 @@ body
     /* DEBUG VARIABLES */
     border: 0px solid rgb(149, 255, 0);
 }  
+
+#title_role
+{
+    color: var(--title-color);
+    font-family: 'VT323', 'monospace';
+    font-size: 28pt;
+    margin: -5px auto 10px auto;
+    width: max-content;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    display: none;
+}
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 
 #title_description
@@ -64,6 +76,11 @@ h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 {
     margin: 10px auto;
     height: 25vh;
+    width: 25vh;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
 
     /* DEBUG VARIABLES */
     border: 0px solid rgb(255, 102, 0);
@@ -435,9 +452,11 @@ letter.initial
 {
   color: var(--skill-text, rgba(255, 255, 255, 255));
   text-align: center; 
-  font-family: 'VT323', monospace;
-  font-size: 3.5rem; 
-  letter-spacing: -.05rem;
+  font-family: 'cascadia', monospace;
+  font-size: 2.6rem; 
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin: 18px 0 12px 0;
 }
 
 /* ---------------------------------------------------- */

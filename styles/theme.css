@@ -54,8 +54,8 @@
   --project-stroke: 0;
   --skill-text: #1f1f1f;
   --edu-text: #1f1f1f;
-  --chart-bg: rgba(0, 0, 0, 0.05);
-  --chart-border: rgba(31, 31, 31, 0.2);
+  --chart-bg: rgba(0, 0, 0, 0.025);
+  --chart-border: rgba(31, 31, 31, 0.12);
 }
 
 body {
@@ -67,6 +67,10 @@ body {
 }
 
 #title {
+  color: var(--title-color);
+}
+
+#title_role {
   color: var(--title-color);
 }
 
@@ -155,6 +159,7 @@ span.standout {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
   cursor: pointer;
   z-index: 10000;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
@@ -232,9 +237,23 @@ span.standout {
   color: var(--project-text, #1f1f1f);
 }
 
-[data-theme="light"] #skill-chart-title,
+[data-theme="light"] #skill-chart-title {
+  color: var(--skill-text, #1f1f1f);
+  background: none;
+  border: 0;
+}
+
 [data-theme="light"] .chart .metric {
   color: var(--skill-text, #1f1f1f);
   background-color: var(--chart-bg);
   border-color: var(--chart-border);
+}
+
+[id^="github_link_"] {
+  display: block;
+  text-align: center;
+}
+
+div[id^="github_link_"] {
+  font-size: 50px;
 }

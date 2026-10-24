@@ -49,27 +49,32 @@ function letterer(element)
 // on every character and removes it's initial class,
 // to trigger a transition effect.
 
-var lettersWrap = document.getElementById('title'),
-	letters, 
-	delay = 0, // initial delay
-	delayJump = 33, // adjust this
-	totalLetters;
-
-// Break to letters
-letterer( lettersWrap );
-lettersWrap.style.display = 'block';
-
-// get all "letter" elements
-letters = lettersWrap.getElementsByTagName('letter');
-totalLetters = letters.length;
-
-for( var i=0; i < totalLetters; i++ )
+function animateTitle(id)
 {
-	doTimer(letters[i], delay);
-	delay += delayJump;
-	// if the letter is a "space" then pause for a little more, to have some delay between words 
-	if( letters[i].innerHTML == ' ' )
-		delay += delayJump * 3;
+	var lettersWrap = document.getElementById(id),
+		letters, 
+		delay = 0, // initial delay
+		delayJump = 33, // adjust this
+		totalLetters;
+
+	if( !lettersWrap ) return;
+
+	// Break to letters
+	letterer( lettersWrap );
+	lettersWrap.style.display = 'block';
+
+	// get all "letter" elements
+	letters = lettersWrap.getElementsByTagName('letter');
+	totalLetters = letters.length;
+
+	for( var i=0; i < totalLetters; i++ )
+	{
+		doTimer(letters[i], delay);
+		delay += delayJump;
+		// if the letter is a "space" then pause for a little more, to have some delay between words 
+		if( letters[i].innerHTML == '\u00A0' || letters[i].innerHTML == ' ' )
+			delay += delayJump * 3;
+	}
 }
 
 function doTimer(letter, delay)
@@ -79,3 +84,8 @@ function doTimer(letter, delay)
 		letter.removeAttribute('class');
 	}, delay);
 }
+
+document.addEventListener('DOMContentLoaded', function(){
+	animateTitle('title');
+	animateTitle('title_role');
+});
